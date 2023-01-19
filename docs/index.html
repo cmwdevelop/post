@@ -43,7 +43,7 @@
           if(data.buildingName !== ''){
             extraAddr += (extraAddr !== '' ? ', ' + data.buildingName : data.buildingName);
           }
-          fullAddr += (extraAddr !== '' ? ' ('+ extraAddr +')' : '');
+          fullAddr += (extraAddr !== '' ? ' '+ extraAddr +'' : '');
         }
         var fullRoadAddr = data.roadAddress; // 도로명 주소 변수
         var buildingName = data.buildingName; // 도로명 조합형 주소 변수
